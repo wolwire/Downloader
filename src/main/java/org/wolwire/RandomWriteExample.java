@@ -8,7 +8,7 @@ public class RandomWriteExample {
 
     public static void main(String[] args) {
         String filePath = "random_access_file.txt"; // Specify your file path here
-        byte[] dataToWrite = {0x48,0x65,0x6c,0x6c,0x6f}; // Data to write
+        byte[] dataToWrite = {0x48, 0x65, 0x6c, 0x6c, 0x6f}; // Data to write
 
         // Writing data at various random positions
         try {
